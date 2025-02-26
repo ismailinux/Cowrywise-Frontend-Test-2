@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# Unsplash Clone
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a clone of the popular Unsplash website, built using Vue.js. It allows users to search for photos using the Unsplash API and displays the results in a responsive, masonry grid layout.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Search for photos using the Unsplash API
+- Display search results in a responsive, masonry grid layout
+- Show loading skeletons while fetching data
+- Display error messages for API errors
+- Responsive design
+
+## Technologies Used
+
+- Vue.js 3
+- SCSS
+- Unsplash API
+
+## Project Setup
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-# npm
+git clone https://github.com/your-username/unsplash-clone.git
+cd unsplash-clone
+
+2. Install Dependencies:
+
 npm install
 
-# pnpm
-pnpm install
+3. Create a .env file in the project root and add your Unsplash API key:
+UNSPLASH_ACCESS_KEY=your_access_key_here
 
-# yarn
-yarn install
+4. Start the development server:
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
